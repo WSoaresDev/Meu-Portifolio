@@ -312,6 +312,56 @@ ul {
     text-shadow: 0 0 15px var(--neon-purple);
 }
 
+/* Meus Projetos */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+}
+
+.project-card {
+    background: var(--bg-secondary);
+    border: 1px solid rgba(0, 247, 255, 0.1);
+    padding: 2rem;
+    border-radius: 15px;
+    transition: 0.4s ease;
+}
+
+.project-card:hover {
+    border-color: var(--neon-cyan);
+    box-shadow: 0 0 20px rgba(0, 247, 255, 0.2);
+    transform: translateY(-5px);
+}
+
+.project-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 1rem;
+}
+
+.project-tags span {
+    font-size: 0.8rem;
+    color: var(--neon-purple);
+    background: rgba(213, 0, 249, 0.1);
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.project-links {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 20px;
+}
+
+.project-links a {
+    color: var(--neon-cyan);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
 
 /* --- Certificados --- */
 .cert-grid {
