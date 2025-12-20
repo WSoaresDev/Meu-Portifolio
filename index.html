@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Profissional | Análise de Dados</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Portfólio<span class="neon-dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre Mim</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#certificates">Certificados</a></li>
+            <li><a href="#contact" class="btn-neon">Contato</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-text hidden-left">
+                <h4>Olá, eu sou</h4>
+                <h1>Wendel Soares</h1>
+                <h2 class="typing-text">Estudante de Análise de Dados & Desenvolvedor Full-Stack</h2>
+                <p>Unindo a base sólida do desenvolvimento web com o poder analítico dos dados para criar soluções inteligentes e insights valiosos.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn-neon">Vamos conversar</a>
+                    <a href="#about" class="btn-outline">Saiba mais</a>
+                </div>
+            </div>
+            <div class="hero-img hidden-right">
+                <img src="imagens/foto-portifolio.jpg" alt="Foto de perfil profissional">
+                <div class="img-glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title hidden-up">Sobre <span class="neon-text">Mim</span></h2>
+            <div class="about-content hidden-up">
+                <p>
+                    Minha jornada na tecnologia começou com o desenvolvimento Full-Stack. Adquiri uma base sólida em front-end (HTML5, CSS3, React) e lógica de programação, criando interfaces interativas e funcionais.
+                </p>
+                <p>
+                    No entanto, percebi que o verdadeiro valor da tecnologia moderna reside não apenas em construir aplicações, mas em entender os dados que elas geram. Atualmente, estou em uma transição estratégica de carreira, focando meus estudos em **Análise de Dados**.
+                </p>
+                <p>
+                    Estou mergulhando fundo em SQL para manipulação de bancos de dados, Python para análise exploratória e Power BI para visualização de dados e Business Intelligence. Meu objetivo é me tornar um profissional capaz de construir a ferramenta e também interpretar os resultados.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title hidden-up">Minhas <span class="neon-text">Habilidades</span></h2>
+            
+            <div class="skills-wrapper">
+                <div class="skills-category hidden-left">
+                    <h3><i class="fas fa-chart-line neon-icon"></i> Foco Atual (Dados)</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-python"></i>
+                            <span>Python (Análise)</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Power BI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category hidden-right">
+                    <h3><i class="fas fa-code neon-icon"></i> Desenvolvimento Web</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                         <div class="skill-card">
+                            <i class="fab fa-react"></i>
+                            <span>React.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="section">
+        <div class="container">
+            <h2 class="section-title hidden-up">Certificados <span class="neon-text">& Formação</span></h2>
+            <div class="cert-grid">
+                <div class="cert-card hidden-up">
+                    <div class="cert-icon"><i class="fas fa-award"></i></div>
+                    <h3>Full-Stack</h3>
+                    <p class="institution">SENAI</p>
+                    <p class="desc">Formação completa em desenvolvimento web, abrangendo front-end e back-end.</p>
+                </div>
+                <div class="cert-card hidden-up" style="transition-delay: 0.2s;">
+                    <div class="cert-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Programação de Aplicativos</h3>
+                    <p class="institution">SENAI</p>
+                    <p class="desc">Desenvolvimento de soluções mobile e lógica de programação avançada.</p>
+                </div>
+                <div class="cert-card hidden-up" style="transition-delay: 0.4s;">
+                    <div class="cert-icon"><i class="fab fa-html5"></i></div>
+                    <h3>HTML5 e CSS3</h3>
+                    <p class="institution">Curso em Vídeo</p>
+                    <p class="desc">Fundamentos sólidos de estruturação e estilização web moderna.</p>
+                </div>
+                 <div class="cert-card hidden-up" style="transition-delay: 0.6s;">
+                    <div class="cert-icon"><i class="fab fa-js"></i></div>
+                    <h3>JavaScript</h3>
+                    <p class="institution">Curso em Vídeo</p>
+                    <p class="desc">Lógica de programação e interatividade para a web.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title hidden-up">Entre em <span class="neon-text">Contato</span></h2>
+            <p class="contact-intro hidden-up">Estou aberto a oportunidades em Análise de Dados ou projetos que unam dados e desenvolvimento web.</p>
+            
+            <div class="social-links hidden-up">
+                <a href="https://www.linkedin.com/in/wendel-soares-b02528204" target="_blank" class="social-btn linkedin"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="https://github.com/WSoaresDev" target="_blank" class="social-btn github"><i class="fab fa-github"></i></a>
+
+                <a href="wendelsoares1357@gmail.com" class="social-btn email"><i class="fas fa-envelope"></i></a>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2025 Wendel Soares Alves Crispim. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
