@@ -9,6 +9,12 @@
     --font-main: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+    /* Adiciona um espaçamento para a navbar fixa não cobrir o título da seção ao clicar */
+    scroll-padding-top: 80px; 
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -233,14 +239,31 @@ ul {
 }
 
 /* --- Sobre Mim --- */
+
 .about-content p {
-    margin-bottom: 1.5rem;
     font-size: 1.1rem;
+    line-height: 1.8;
     color: var(--text-muted);
-    text-align: center;
-    max-width: 800px;
+    margin-bottom: 1.5rem;
+    text-align: center; /* Centralizado fica mais moderno para parágrafos curtos */
+    max-width: 850px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* O destaque das palavras-chave */
+.text-highlight {
+    color: var(--neon-cyan);
+    font-weight: 600;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+/* Efeito sutil de brilho ao passar o mouse nas palavras-chave */
+.text-highlight:hover {
+    color: white;
+    text-shadow: 0 0 8px var(--neon-cyan);
+    cursor: default;
 }
 
 /* --- Skills --- */
