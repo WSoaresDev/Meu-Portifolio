@@ -6,7 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const navLinks = document.querySelector('.nav-links');
     const icon = menuToggle.querySelector('i');
 
-    menuToggle.addEventListener('click', () => {
+    menuToggle.addEventListener('click', (e) => {
+        e.stopImmediatePropagation();
         navLinks.classList.toggle('active');
         
         // Troca o ícone de hambúrguer para 'X'
